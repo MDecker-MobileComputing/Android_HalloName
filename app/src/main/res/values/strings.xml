@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Hallo Name</string>
+
+    <string name="hint_hier_name_eingeben">Hier Name eingeben</string>
+
+    <string name="button_text">Begrüße mich</string>
+
+    <string name="toast_text_name_eingeben">Bitte Name in Eingabefeld eingeben!</string>
+
+</resources>
+
+
+
+
