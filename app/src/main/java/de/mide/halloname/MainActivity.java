@@ -2,9 +2,11 @@ package de.mide.halloname;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -36,7 +38,7 @@ public class MainActivity extends Activity {
 
         _nameEditText = findViewById(R.id.nameEditText);
 
-        Button button = (Button) findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,6 +79,22 @@ public class MainActivity extends Activity {
 
         AlertDialog dialog = dialogBuilder.create();
         dialog.show();
+
+        keyboardEinklappen(_nameEditText);
+    }
+
+
+    /**
+     * Virtuelles Keyboard wieder "einklappen".
+     * Lösung nach
+     * <a href="https://stackoverflow.com/a/17789187/1364368">https://stackoverflow.com/a/17789187/1364368</a>
+     *
+     * @param view UI-Element, von dem Keyboard eingeblendet wurde.
+     */
+    public void keyboardEinklappen(View view) {
+        InputMethodManager imm = (InputMethodManager)
+                getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
 }
