@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -92,6 +93,7 @@ public class MainActivity extends Activity {
      * @param view UI-Element, von dem Keyboard eingeblendet wurde.
      */
     public void keyboardEinklappen(View view) {
+
         InputMethodManager imm = (InputMethodManager)
                 getSystemService(Activity.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
