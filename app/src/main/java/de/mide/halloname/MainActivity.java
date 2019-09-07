@@ -57,6 +57,15 @@ public class MainActivity extends Activity {
      */
     protected void eventHandlerFuerButton() {
 
+        if (_nameEditText == null) {
+
+            // mit "wtf" wird je nach Android-Version die App beendet.
+            Log.wtf(TAG4LOGGING, "EditText-Element nicht gefüllt.");
+
+            return;
+        }
+
+
         String name = _nameEditText.getText().toString().trim();
 
         if (name.length() == 0) {
