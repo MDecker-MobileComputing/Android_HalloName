@@ -57,6 +57,15 @@ public class MainActivity extends Activity {
      */
     protected void eventHandlerFuerButton() {
 
+        if (_nameEditText == null) {
+
+            // mit "wtf" wird je nach Android-Version die App beendet.
+            Log.wtf(TAG4LOGGING, "EditText-Element nicht gefüllt.");
+
+            return;
+        }
+
+
         String name = _nameEditText.getText().toString().trim();
 
         if (name.length() == 0) {
@@ -86,11 +95,10 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Virtuelles Keyboard wieder "einklappen".
-     * Lösung nach
+     * Virtuelles Keyboard wieder "einklappen". Lösung nach
      * <a href="https://stackoverflow.com/a/17789187/1364368">https://stackoverflow.com/a/17789187/1364368</a>
      *
-     * @param view UI-Element, von dem Keyboard eingeblendet wurde.
+     * @param view  UI-Element, von dem Keyboard eingeblendet wurde.
      */
     public void keyboardEinklappen(View view) {
 
