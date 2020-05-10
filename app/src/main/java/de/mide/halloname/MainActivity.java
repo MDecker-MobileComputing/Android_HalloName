@@ -27,9 +27,8 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Lifecycle-Methode: Lädt UI, lädt Referenz auf UI-Element
-     * in Member-Variable und setzt Event-Handler-Methode
-     * für den Button.
+     * Lifecycle-Methode: Lädt UI, lädt Referenz auf UI-Element in
+     * Member-Variable und setzt Event-Handler-Methode für den Button.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
