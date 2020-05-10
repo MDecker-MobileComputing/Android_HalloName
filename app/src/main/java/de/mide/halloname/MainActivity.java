@@ -96,7 +96,8 @@ public class MainActivity extends Activity {
 
     /**
      * Virtuelles Keyboard wieder "einklappen". Lösung nach
-     * <a href="https://stackoverflow.com/a/17789187/1364368">https://stackoverflow.com/a/17789187/1364368</a>
+     * <a href="https://stackoverflow.com/a/17789187/1364368">dieser Antwort</a>
+     * auf <i>stackoverflow.com</i>.
      *
      * @param view  UI-Element, von dem Keyboard eingeblendet wurde.
      */
