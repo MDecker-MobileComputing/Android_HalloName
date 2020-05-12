@@ -27,9 +27,8 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Lifecycle-Methode: Lädt UI, lädt Referenz auf UI-Element
-     * in Member-Variable und setzt Event-Handler-Methode
-     * für den Button.
+     * Lifecycle-Methode: Lädt UI, lädt Referenz auf UI-Element in
+     * Member-Variable und setzt Event-Handler-Methode für den Button.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +40,7 @@ public class MainActivity extends Activity {
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 eventHandlerFuerButton();
@@ -96,7 +96,8 @@ public class MainActivity extends Activity {
 
     /**
      * Virtuelles Keyboard wieder "einklappen". Lösung nach
-     * <a href="https://stackoverflow.com/a/17789187/1364368">https://stackoverflow.com/a/17789187/1364368</a>
+     * <a href="https://stackoverflow.com/a/17789187/1364368">dieser Antwort</a>
+     * auf <i>stackoverflow.com</i>.
      *
      * @param view  UI-Element, von dem Keyboard eingeblendet wurde.
      */
