@@ -105,6 +105,7 @@ public class MainActivity extends Activity {
 
         InputMethodManager imm = (InputMethodManager)
                 getSystemService(Activity.INPUT_METHOD_SERVICE);
+
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
