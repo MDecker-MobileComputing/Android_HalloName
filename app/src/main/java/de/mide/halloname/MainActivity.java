@@ -72,11 +72,10 @@ public class MainActivity extends Activity {
 
             Log.w(TAG4LOGGING, "Der Nutzer hat keinen Namen eingegeben!");
 
-            String toastText = getString( R.string.toast_text_name_eingeben );
             Toast toast =
                     Toast.makeText(
                             this,
-                            toastText,
+                            R.string.toast_text_name_eingeben,
                             Toast.LENGTH_LONG);
             toast.show();
             return;
