@@ -59,15 +59,13 @@ public class MainActivity extends Activity {
 
         if (_nameEditText == null) {
 
-            // mit "wtf" wird je nach Android-Version die App beendet.
+            // mit "wtf" wird je nach Android-Version die App beendet
             Log.wtf(TAG4LOGGING, "EditText-Element nicht gefüllt.");
 
             return;
         }
 
-
         String name = _nameEditText.getText().toString().trim();
-
         if (name.length() == 0) {
 
             Log.w(TAG4LOGGING, "Der Nutzer hat keinen Namen eingegeben!");
