@@ -1,4 +1,6 @@
-# Android-App "Hallo Name"
+# Android-App "Hallo Name" #
+
+<br>
 
 App demonstrates how to use dialog, toasts and log message in Android.
 
@@ -9,7 +11,10 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 <br>
 
 ----
-## Screenshots
+
+## Screenshots ##
+
+<br>
 
 ![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
 
@@ -18,6 +23,11 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 <br>
 
 ----
-# License
+
+## License ##
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
+
+<br>
