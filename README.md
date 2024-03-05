@@ -16,7 +16,7 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 
 <br>
 
-![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
+![Screenshot 1](screenshot_1.png) &nbsp;  ![Screenshot 2](screenshot_2.png)
 
 ![Screenshot 3](screenshot_3.png)
 
