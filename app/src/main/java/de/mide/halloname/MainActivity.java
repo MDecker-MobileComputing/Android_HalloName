@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
      *
      * @param view  UI-Element, von dem Keyboard eingeblendet wurde.
      */
-    public void keyboardEinklappen(View view) {
+    private void keyboardEinklappen(View view) {
 
         InputMethodManager imm = (InputMethodManager)
                 getSystemService(Activity.INPUT_METHOD_SERVICE);
