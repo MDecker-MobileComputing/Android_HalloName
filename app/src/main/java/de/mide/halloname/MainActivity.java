@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
         }
 
         String name = _nameEditText.getText().toString().trim();
-        if (name.length() == 0) {
+        if ( name.isEmpty() ) {
 
             Log.w(TAG4LOGGING, "Der Nutzer hat keinen Namen eingegeben!");
 
