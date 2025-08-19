@@ -1,8 +1,7 @@
-package de.mide.halloname;
+package de.mide.android.halloname;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 
 /**
  * App demonstriert Verwendung von Dialogen, Toasts und Log-Nachrichten.
@@ -18,7 +19,7 @@ import android.widget.Toast;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     public static final String TAG4LOGGING = "HalloName";
 
@@ -81,6 +82,7 @@ public class MainActivity extends Activity {
 
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
 
+        dialogBuilder.setTitle("Begrüßung");
         dialogBuilder.setMessage("Hallo " + name + "!");
         dialogBuilder.setPositiveButton("Weiter", null);
 

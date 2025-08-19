@@ -14,7 +14,6 @@
         android:layout_marginTop="57dp"
         android:ems="10"
         android:hint="@string/hint_hier_name_eingeben"
-        android:inputType="text"
         android:text="" />
 
     <Button

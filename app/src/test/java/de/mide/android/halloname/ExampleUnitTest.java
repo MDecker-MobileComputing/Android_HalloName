@@ -1,4 +1,4 @@
-package de.mide.halloname;
+package de.mide.android.halloname;
 
 import org.junit.Test;
 

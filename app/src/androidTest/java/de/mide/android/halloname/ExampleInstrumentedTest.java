@@ -1,4 +1,4 @@
-package de.mide.halloname;
+package de.mide.android.halloname;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.halloname", appContext.getPackageName());
+        assertEquals("de.mide.android.halloname", appContext.getPackageName());
     }
 }
