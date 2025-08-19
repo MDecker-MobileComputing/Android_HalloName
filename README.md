@@ -2,11 +2,8 @@
 
 <br>
 
-App demonstrates how to use dialog, toasts and log message in Android.
-
-<br>
-
-Identifiers (names for classes, variables and methods), UI texts and comments are in German only.
+Dieses Repo enthält enthält eine Android-Studio-Projekt für eine native Android-App mit Java, die zeigt,
+wie man Dialoge, Toasts und Log-Nachrichten verwendet.
 
 <br>
 
@@ -16,7 +13,7 @@ Identifiers (names for classes, variables and methods), UI texts and comments ar
 
 <br>
 
-![Screenshot 1](screenshot_1.png) &nbsp;  ![Screenshot 2](screenshot_2.png)
+![Screenshot 1](screenshot_1.png) &nbsp; ![Screenshot 2](screenshot_2.png)
 
 ![Screenshot 3](screenshot_3.png)
 
