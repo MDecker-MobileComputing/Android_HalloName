@@ -2,8 +2,8 @@
 
 <br>
 
-Dieses Repo enthält enthält eine Android-Studio-Projekt für eine native Android-App mit Java, die zeigt,
-wie man Dialoge, Toasts und Log-Nachrichten verwendet.
+Dieses Repo enthält enthält eine Android-Studio-Projekt für eine native Android-App mit Java, 
+die zeigt, wie man Dialoge, Toasts und Log-Nachrichten verwendet.
 
 <br>
 
